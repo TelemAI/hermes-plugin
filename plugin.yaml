@@ -1,0 +1,15 @@
+name: telem
+version: 0.1.0
+description: Telem web search and page reading for Hermes, with query lineage.
+author: Telem
+license: Apache-2.0
+homepage: https://docs.telem.ai/integrations/hermes/
+kind: standalone
+provides_tools:
+  - telem_search
+  - telem_fetch
+provides_hooks:
+  - pre_api_request
+  - post_api_request
+  - subagent_start
+  - on_session_finalize

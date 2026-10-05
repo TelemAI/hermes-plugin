@@ -4,4 +4,4 @@
 name = "telem-hermes-plugin"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["telem-sdk>=0.1.9,<0.2"]
+dependencies = ["telem-sdk>=0.1.10,<0.2"]
